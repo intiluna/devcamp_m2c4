@@ -41,3 +41,9 @@ print("Exercise 3: Get the square root of your float.")
 mi_square_root = math.sqrt(mi_float)
 print(mi_square_root)
 print("------------------------------------")
+
+
+# Exercise 4: Select the first element from your dictionary.
+print("Exercise 4: Select the first element from your dictionary.")
+print(mi_dict['name'])
+print("------------------------------------")
