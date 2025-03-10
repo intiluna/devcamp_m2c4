@@ -65,3 +65,14 @@ mi_list[0] = "101 days"
 print(mi_list)
 print("------------------------------------")
 
+# Exercise 8: Sort your list alphabetically.
+print("Exercise 8: Sort your list alphabetically.")
+
+print(mi_list)
+print("sort() no funciona con listas de distintos tipos de datos: TypeError: '<' not supported between instances of 'int' and 'str' asi que modificamos")
+mi_list[0] = 18
+mi_list[-1] = -15
+print(f"lista modificada:\n{mi_list}")
+mi_list.sort()
+print(f"lista despues de sort:\n{mi_list}")
+print("------------------------------------")
