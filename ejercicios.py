@@ -29,9 +29,15 @@ print("------------------------------------")
 
 # Exercise 2: Round your float up.
 print("Exercise 2: Round your float up.")
-mi_float = 41.2 
+
 import math
 
 mi_nuevo_float = math.ceil(mi_float)
 print(mi_nuevo_float)
+print("------------------------------------")
+
+#Exercise 3: Get the square root of your float.
+print("Exercise 3: Get the square root of your float.")
+mi_square_root = math.sqrt(mi_float)
+print(mi_square_root)
 print("------------------------------------")
