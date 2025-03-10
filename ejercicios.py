@@ -52,3 +52,9 @@ print("------------------------------------")
 print("Exercise 5: Select the second element from your tuple.")
 print(mi_tuple[1])
 print("------------------------------------")
+
+# Exercise 6: Add an element to the end of your list.
+print("Exercise 6: Add an element to the end of your list.")
+mi_list.append("nuevo numero en la cola")
+print(mi_list)
+print("------------------------------------")
