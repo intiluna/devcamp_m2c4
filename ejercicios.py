@@ -25,3 +25,13 @@ print(mi_decimal)
 mi_dict = {'name': 'Kathy', 'age': 5, 'city': 'Managua'}
 print(mi_dict)
 print("------------------------------------")
+
+
+# Exercise 2: Round your float up.
+print("Exercise 2: Round your float up.")
+mi_float = 41.2 
+import math
+
+mi_nuevo_float = math.ceil(mi_float)
+print(mi_nuevo_float)
+print("------------------------------------")
