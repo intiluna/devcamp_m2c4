@@ -47,3 +47,8 @@ print("------------------------------------")
 print("Exercise 4: Select the first element from your dictionary.")
 print(mi_dict['name'])
 print("------------------------------------")
+
+# Exercise 5: Select the second element from your tuple.
+print("Exercise 5: Select the second element from your tuple.")
+print(mi_tuple[1])
+print("------------------------------------")
