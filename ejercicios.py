@@ -58,3 +58,10 @@ print("Exercise 6: Add an element to the end of your list.")
 mi_list.append("nuevo numero en la cola")
 print(mi_list)
 print("------------------------------------")
+
+# Exercise 7: Replace the first element in your list.
+print("Exercise 7: Replace the first element in your list.")
+mi_list[0] = "101 days"
+print(mi_list)
+print("------------------------------------")
+
