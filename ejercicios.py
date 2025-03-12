@@ -82,6 +82,6 @@ print("------------------------------------")
 print("Exercise 9: Use reassignment to add an element to your tuple.")
 nuevo_elemento_para_tuple = ("more memory efficiente",)
 print(f"nuevo elemento: {nuevo_elemento_para_tuple}")
-mi_tuple = mi_tuple + nuevo_elemento_para_tuple
+mi_tuple += nuevo_elemento_para_tuple
 print(mi_tuple)
 print("------------------------------------")
