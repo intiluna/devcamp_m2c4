@@ -2,17 +2,17 @@
 title: "Cuestionario Checkpoint 4"
 author: "Inti Luna"
 date: 2025-03-10
-format: html
+format: gfm
 editor: visual
 ---
 
 ## ¿Cuál es la diferencia entre una lista y una tupla en Python?
 
-- Listas se definen con [] y tuplas con ().
-- Listas son modificables y tuplas no.
-- Listas tiene una cantidad de elementos dinámicas y tuplas no, estas son fijas (por son inmutables).
-- Procesos con listas son más lentos que con tuplas.
-- Las listas son menos eficientes en términos de memoria que las tuplas.
+-   Listas se definen con \[\] y tuplas con ().
+-   Listas son modificables y tuplas no.
+-   Listas tiene una cantidad de elementos dinámicas y tuplas no, estas son fijas (por son inmutables).
+-   Procesos con listas son más lentos que con tuplas.
+-   Las listas son menos eficientes en términos de memoria que las tuplas.
 
 ```{python}
 #| label: codigo-ejemplo-1
@@ -29,19 +29,12 @@ print(mi_tupla)
 print(f"elementos en tupla:{len(mi_tupla)}")
 
 ```
- 
+
 Referencias <https://builtin.com/software-engineering-perspectives/python-tuples-vs-lists>.
 
 ## ¿Cuál es el orden de las operaciones?
 
-Según PEMDAS el orden es:
-P -> Parantesis ()
-E -> Exponentes **
-M -> Multiplicacion *
-D -> Division /
-A -> Addition o suma +
-S -> Subtraction o resta -
-Se puede intercambiar el orden de multiplicación y división y el resultado sería el mismo.
+Según PEMDAS el orden es: P -\> Parantesis () E -\> Exponentes \*\* M -\> Multiplicacion \* D -\> Division / A -\> Addition o suma + S -\> Subtraction o resta - Se puede intercambiar el orden de multiplicación y división y el resultado sería el mismo.
 
 ```{python}
 #| label: codigo-ejemplo-2
@@ -56,7 +49,7 @@ print(f"resultado:{resultado}")
 
 ## ¿Qué es un diccionario Python?
 
-Es una estructura de almacenamiento o colección de datos en python que se basa en llaves y valores (key:values) que es muy usada para almacenar información diferente y es muy utilizada. Es muy similar a JSON (JavaScript Object Notation) que es un protocolo estándar para comunicaciones  para interactuar con API(Application Programming Interfaces)s. 
+Es una estructura de almacenamiento o colección de datos en python que se basa en llaves y valores (key:values) que es muy usada para almacenar información diferente y es muy utilizada. Es muy similar a JSON (JavaScript Object Notation) que es un protocolo estándar para comunicaciones para interactuar con API(Application Programming Interfaces)s.
 
 ```{python}
 #| label: codigo-ejemplo-3
@@ -97,9 +90,7 @@ print(sat_data)
 
 Referencias: <https://heardlibrary.github.io/digital-scholarship/script/python/json/>
 
-
 ## ¿Cuál es la diferencia entre el método ordenado y la función de ordenación?
-
 
 El método sort() ordena una lista por orden alfabético o por orden de valor, afectando la lista original pero no regresa (return) nada. En cambio la función sorted() regresa la lista ordenada y no afecta a la lista original.
 
@@ -121,7 +112,6 @@ lista_c = sorted(lista_b)
 print(f"lista despues de usar sorted():\n{lista_b}")
 print(f"lista c:\n{lista_c}")
 ```
-
 
 ## ¿Qué es un operador de reasignación?
 
@@ -152,9 +142,9 @@ print(f"nuevo valor en misma variable:\n{lista_a}")
 
 
 ```
+
 Referencias:
 
 <https://www.w3schools.com/python/gloss_python_assignment_operators.asp>
 
 <https://realpython.com/python-assignment-operator/>
-
